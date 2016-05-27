@@ -49,22 +49,30 @@
 //    self.subVIew.layer.masksToBounds = YES;
     
     //截图某部分的图片进行显示，要是坐2d游戏的话，因为图片太多了，一张一张读太消耗内存，所以，使用的是读一张大的，然后切割出来，分成一个一个小的
-    self.subVIew.layer.contentsRect = CGRectMake(0.66, 0.33, 0.33, 0.33);
+    self.subVIew.layer.contentsRect = CGRectMake(0, 0, 1, 1);
+    
+    //如果想要让layer自动调用方法，使用［layer display］调用即可，记住必须成为delegate
+//    self.subVIew.layer.delegate = self;
+//    [self.subVIew.layer display];
 }
+
+//［layer display］默认回调
+- (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx{
+
+    CGContextSetLineWidth(ctx, 1.0f);
+    CGContextSetStrokeColorWithColor(ctx, [UIColor redColor].CGColor);
+    CGContextStrokeEllipseInRect(ctx, self.subVIew.layer.bounds);
+
+}
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

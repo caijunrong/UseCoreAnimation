@@ -9,6 +9,7 @@
 #import "MainTableViewController.h"
 #import "TestViewController.h"
 #import "MainTableViewCell.h"
+#import "RoundViewController.h"
 
 @interface MainTableViewController ()
 
@@ -22,8 +23,8 @@
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
-    self.infoArray = @[@[@"TestViewController",[TestViewController class]]
-                       
+    self.infoArray = @[@[@"TestViewController",[TestViewController class]],
+                       @[@"RoundViewController", [RoundViewController class]]
                        ];
     
     UIView *emptyView = [[UIView alloc]init];

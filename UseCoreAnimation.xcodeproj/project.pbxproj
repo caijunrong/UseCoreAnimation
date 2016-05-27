@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60ACBEEC1CF7EF90007D23A4 /* RoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ACBEEA1CF7EF90007D23A4 /* RoundViewController.m */; };
+		60ACBEED1CF7EF90007D23A4 /* RoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60ACBEEB1CF7EF90007D23A4 /* RoundViewController.xib */; };
 		60B274B11CF6AC340000227E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B274B01CF6AC340000227E /* main.m */; };
 		60B274B41CF6AC350000227E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B274B31CF6AC350000227E /* AppDelegate.m */; };
 		60B274B71CF6AC350000227E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B274B61CF6AC350000227E /* ViewController.m */; };
@@ -40,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60ACBEE91CF7EF90007D23A4 /* RoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundViewController.h; sourceTree = "<group>"; };
+		60ACBEEA1CF7EF90007D23A4 /* RoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundViewController.m; sourceTree = "<group>"; };
+		60ACBEEB1CF7EF90007D23A4 /* RoundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundViewController.xib; sourceTree = "<group>"; };
 		60B274AC1CF6AC340000227E /* UseCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B274B01CF6AC340000227E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60B274B21CF6AC340000227E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +107,9 @@
 				60B274E51CF6C2EC0000227E /* TestViewController.h */,
 				60B274E61CF6C2EC0000227E /* TestViewController.m */,
 				60B274E71CF6C2EC0000227E /* TestViewController.xib */,
+				60ACBEE91CF7EF90007D23A4 /* RoundViewController.h */,
+				60ACBEEA1CF7EF90007D23A4 /* RoundViewController.m */,
+				60ACBEEB1CF7EF90007D23A4 /* RoundViewController.xib */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -275,6 +283,7 @@
 				60B274BF1CF6AC350000227E /* LaunchScreen.storyboard in Resources */,
 				60B274BC1CF6AC350000227E /* Assets.xcassets in Resources */,
 				60B274E91CF6C2EC0000227E /* TestViewController.xib in Resources */,
+				60ACBEED1CF7EF90007D23A4 /* RoundViewController.xib in Resources */,
 				60B274BA1CF6AC350000227E /* Main.storyboard in Resources */,
 				60B274EE1CF6C3600000227E /* MainTableViewCell.xib in Resources */,
 			);
@@ -301,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60ACBEEC1CF7EF90007D23A4 /* RoundViewController.m in Sources */,
 				60B274ED1CF6C3600000227E /* MainTableViewCell.m in Sources */,
 				60B274E41CF6AD830000227E /* MainTableViewController.m in Sources */,
 				60B274B71CF6AC350000227E /* ViewController.m in Sources */,
