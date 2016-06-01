@@ -10,6 +10,11 @@
 #import "TestViewController.h"
 #import "MainTableViewCell.h"
 #import "RoundViewController.h"
+#import "MaskLayerViewController.h"
+#import "CGAffineTransformViewController.h"
+#import "CATransform3DM34ViewController.h"
+#import "SquareViewController.h"
+#import "CALayerViewController.h"
 
 @interface MainTableViewController ()
 
@@ -24,7 +29,12 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
     self.infoArray = @[@[@"TestViewController",[TestViewController class]],
-                       @[@"RoundViewController", [RoundViewController class]]
+                       @[@"RoundViewController", [RoundViewController class]],
+                       @[@"MaskLayerViewController", [MaskLayerViewController class]],
+                       @[@"CGAffineTransformViewController", [CGAffineTransformViewController class]],
+                       @[@"CATransform3DM34ViewController", [CATransform3DM34ViewController class]],
+                       @[@"SquareViewController", [SquareViewController class]],
+                       @[@"CALayerViewController", [CALayerViewController class]]
                        ];
     
     UIView *emptyView = [[UIView alloc]init];

@@ -22,6 +22,16 @@
 		60B274E91CF6C2EC0000227E /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B274E71CF6C2EC0000227E /* TestViewController.xib */; };
 		60B274ED1CF6C3600000227E /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B274EB1CF6C3600000227E /* MainTableViewCell.m */; };
 		60B274EE1CF6C3600000227E /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B274EC1CF6C3600000227E /* MainTableViewCell.xib */; };
+		60BEC2A81CFBF112008303D7 /* MaskLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BEC2A61CFBF112008303D7 /* MaskLayerViewController.m */; };
+		60BEC2A91CFBF112008303D7 /* MaskLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60BEC2A71CFBF112008303D7 /* MaskLayerViewController.xib */; };
+		60BEC2AE1CFC20E4008303D7 /* CGAffineTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BEC2AC1CFC20E4008303D7 /* CGAffineTransformViewController.m */; };
+		60BEC2AF1CFC20E4008303D7 /* CGAffineTransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60BEC2AD1CFC20E4008303D7 /* CGAffineTransformViewController.xib */; };
+		60BEC2B41CFC29A9008303D7 /* CATransform3DM34ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BEC2B21CFC29A9008303D7 /* CATransform3DM34ViewController.m */; };
+		60BEC2B51CFC29A9008303D7 /* CATransform3DM34ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60BEC2B31CFC29A9008303D7 /* CATransform3DM34ViewController.xib */; };
+		60BEC2B91CFC37DB008303D7 /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BEC2B71CFC37DB008303D7 /* SquareViewController.m */; };
+		60BEC2BA1CFC37DB008303D7 /* SquareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60BEC2B81CFC37DB008303D7 /* SquareViewController.xib */; };
+		60BEC2BF1CFD21C2008303D7 /* CALayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BEC2BD1CFD21C2008303D7 /* CALayerViewController.m */; };
+		60BEC2C01CFD21C2008303D7 /* CALayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60BEC2BE1CFD21C2008303D7 /* CALayerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +79,21 @@
 		60B274EA1CF6C3600000227E /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
 		60B274EB1CF6C3600000227E /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
 		60B274EC1CF6C3600000227E /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		60BEC2A51CFBF112008303D7 /* MaskLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskLayerViewController.h; sourceTree = "<group>"; };
+		60BEC2A61CFBF112008303D7 /* MaskLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskLayerViewController.m; sourceTree = "<group>"; };
+		60BEC2A71CFBF112008303D7 /* MaskLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaskLayerViewController.xib; sourceTree = "<group>"; };
+		60BEC2AB1CFC20E4008303D7 /* CGAffineTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAffineTransformViewController.h; sourceTree = "<group>"; };
+		60BEC2AC1CFC20E4008303D7 /* CGAffineTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAffineTransformViewController.m; sourceTree = "<group>"; };
+		60BEC2AD1CFC20E4008303D7 /* CGAffineTransformViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGAffineTransformViewController.xib; sourceTree = "<group>"; };
+		60BEC2B11CFC29A9008303D7 /* CATransform3DM34ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransform3DM34ViewController.h; sourceTree = "<group>"; };
+		60BEC2B21CFC29A9008303D7 /* CATransform3DM34ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransform3DM34ViewController.m; sourceTree = "<group>"; };
+		60BEC2B31CFC29A9008303D7 /* CATransform3DM34ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CATransform3DM34ViewController.xib; sourceTree = "<group>"; };
+		60BEC2B61CFC37DB008303D7 /* SquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareViewController.h; sourceTree = "<group>"; };
+		60BEC2B71CFC37DB008303D7 /* SquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
+		60BEC2B81CFC37DB008303D7 /* SquareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareViewController.xib; sourceTree = "<group>"; };
+		60BEC2BC1CFD21C2008303D7 /* CALayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerViewController.h; sourceTree = "<group>"; };
+		60BEC2BD1CFD21C2008303D7 /* CALayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerViewController.m; sourceTree = "<group>"; };
+		60BEC2BE1CFD21C2008303D7 /* CALayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CALayerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,17 +124,14 @@
 		60ACBEDE1CF6C8DA007D23A4 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				60BEC2BB1CFD219E008303D7 /* 专用图层 */,
+				60BEC2B01CFC2982008303D7 /* 3DLayer */,
+				60BEC2AA1CFC20B5008303D7 /* 2DLayer */,
 				60B274E21CF6AD830000227E /* MainTableViewController.h */,
 				60B274E31CF6AD830000227E /* MainTableViewController.m */,
 				60B274EA1CF6C3600000227E /* MainTableViewCell.h */,
 				60B274EB1CF6C3600000227E /* MainTableViewCell.m */,
 				60B274EC1CF6C3600000227E /* MainTableViewCell.xib */,
-				60B274E51CF6C2EC0000227E /* TestViewController.h */,
-				60B274E61CF6C2EC0000227E /* TestViewController.m */,
-				60B274E71CF6C2EC0000227E /* TestViewController.xib */,
-				60ACBEE91CF7EF90007D23A4 /* RoundViewController.h */,
-				60ACBEEA1CF7EF90007D23A4 /* RoundViewController.m */,
-				60ACBEEB1CF7EF90007D23A4 /* RoundViewController.xib */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -175,6 +197,48 @@
 				60B274D61CF6AC350000227E /* Info.plist */,
 			);
 			path = UseCoreAnimationUITests;
+			sourceTree = "<group>";
+		};
+		60BEC2AA1CFC20B5008303D7 /* 2DLayer */ = {
+			isa = PBXGroup;
+			children = (
+				60B274E51CF6C2EC0000227E /* TestViewController.h */,
+				60B274E61CF6C2EC0000227E /* TestViewController.m */,
+				60B274E71CF6C2EC0000227E /* TestViewController.xib */,
+				60ACBEE91CF7EF90007D23A4 /* RoundViewController.h */,
+				60ACBEEA1CF7EF90007D23A4 /* RoundViewController.m */,
+				60ACBEEB1CF7EF90007D23A4 /* RoundViewController.xib */,
+				60BEC2A51CFBF112008303D7 /* MaskLayerViewController.h */,
+				60BEC2A61CFBF112008303D7 /* MaskLayerViewController.m */,
+				60BEC2A71CFBF112008303D7 /* MaskLayerViewController.xib */,
+				60BEC2AB1CFC20E4008303D7 /* CGAffineTransformViewController.h */,
+				60BEC2AC1CFC20E4008303D7 /* CGAffineTransformViewController.m */,
+				60BEC2AD1CFC20E4008303D7 /* CGAffineTransformViewController.xib */,
+			);
+			name = 2DLayer;
+			sourceTree = "<group>";
+		};
+		60BEC2B01CFC2982008303D7 /* 3DLayer */ = {
+			isa = PBXGroup;
+			children = (
+				60BEC2B11CFC29A9008303D7 /* CATransform3DM34ViewController.h */,
+				60BEC2B21CFC29A9008303D7 /* CATransform3DM34ViewController.m */,
+				60BEC2B31CFC29A9008303D7 /* CATransform3DM34ViewController.xib */,
+				60BEC2B61CFC37DB008303D7 /* SquareViewController.h */,
+				60BEC2B71CFC37DB008303D7 /* SquareViewController.m */,
+				60BEC2B81CFC37DB008303D7 /* SquareViewController.xib */,
+			);
+			name = 3DLayer;
+			sourceTree = "<group>";
+		};
+		60BEC2BB1CFD219E008303D7 /* 专用图层 */ = {
+			isa = PBXGroup;
+			children = (
+				60BEC2BC1CFD21C2008303D7 /* CALayerViewController.h */,
+				60BEC2BD1CFD21C2008303D7 /* CALayerViewController.m */,
+				60BEC2BE1CFD21C2008303D7 /* CALayerViewController.xib */,
+			);
+			name = "专用图层";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,10 +346,15 @@
 			files = (
 				60B274BF1CF6AC350000227E /* LaunchScreen.storyboard in Resources */,
 				60B274BC1CF6AC350000227E /* Assets.xcassets in Resources */,
+				60BEC2AF1CFC20E4008303D7 /* CGAffineTransformViewController.xib in Resources */,
 				60B274E91CF6C2EC0000227E /* TestViewController.xib in Resources */,
+				60BEC2A91CFBF112008303D7 /* MaskLayerViewController.xib in Resources */,
+				60BEC2BA1CFC37DB008303D7 /* SquareViewController.xib in Resources */,
 				60ACBEED1CF7EF90007D23A4 /* RoundViewController.xib in Resources */,
 				60B274BA1CF6AC350000227E /* Main.storyboard in Resources */,
 				60B274EE1CF6C3600000227E /* MainTableViewCell.xib in Resources */,
+				60BEC2B51CFC29A9008303D7 /* CATransform3DM34ViewController.xib in Resources */,
+				60BEC2C01CFD21C2008303D7 /* CALayerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,12 +379,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BEC2B41CFC29A9008303D7 /* CATransform3DM34ViewController.m in Sources */,
 				60ACBEEC1CF7EF90007D23A4 /* RoundViewController.m in Sources */,
 				60B274ED1CF6C3600000227E /* MainTableViewCell.m in Sources */,
 				60B274E41CF6AD830000227E /* MainTableViewController.m in Sources */,
 				60B274B71CF6AC350000227E /* ViewController.m in Sources */,
+				60BEC2A81CFBF112008303D7 /* MaskLayerViewController.m in Sources */,
 				60B274B41CF6AC350000227E /* AppDelegate.m in Sources */,
 				60B274B11CF6AC340000227E /* main.m in Sources */,
+				60BEC2B91CFC37DB008303D7 /* SquareViewController.m in Sources */,
+				60BEC2AE1CFC20E4008303D7 /* CGAffineTransformViewController.m in Sources */,
+				60BEC2BF1CFD21C2008303D7 /* CALayerViewController.m in Sources */,
 				60B274E81CF6C2EC0000227E /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
